@@ -21,7 +21,7 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 
-var images = document.getElementsByTagName("img")
+var images = document.getElementsByClassName("Photo")
 var modalImg = document.getElementById("img01");
 var captionTexts = document.getElementById ('alt');
 var i;
