@@ -13,7 +13,9 @@ body {
 hr.solid {
   border-top: 3px solid #bbb;
   }
-
+img {
+  width: 100%;
+} 
 /*Header*/
 
 header {
@@ -101,10 +103,10 @@ nav {
    color:black;
    font-family: 'Oswald', sans-serif;
   }
-.Main-Logo {
-   max-width: 1000px;
+.Mainlogo {
    width: 100%;
-   max-height: 600px;
+   max-width: 800px;
+   max-height: 800px;
    object-fit: cover;
    object-position: center;
   }
@@ -150,7 +152,7 @@ h2 {
   max-width: 1400px;
 }
 
-#caption {
+#alt {
   margin: auto;
   display: block;
   width: 80%;
@@ -161,7 +163,7 @@ h2 {
   height: 150px;
 }
 
-.modal-content, #caption {  
+.modal-content, #alt {  
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
@@ -197,7 +199,7 @@ h2 {
 
 @media only screen and (max-width: 700px){
   .responsive {
-    width: 49.99999%;
+    width: 50%;
     margin: 6px 0;
   }
   .modal-content {
@@ -235,13 +237,15 @@ h2 {
  .button:hover {
    background-color: black;
    color: white;
- } 
+ }
+
  @media screen and (max-width: 600px) {
    .button {
      font-size: 14px;
      padding: 12px 28px;
    }
  }
+
 /*Video*/
 #Videography {
   margin: auto;
@@ -352,64 +356,6 @@ h2 {
 }
 /*Contact*/
 
-/*Aside*/
-aside {
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-   max-width: 80%;
-   border-radius: 6px;
-   margin: auto;
-   margin-top: 20px;
-   margin-bottom: 20px;
-   width: 25%;
-   padding: 10px;
-   top: 0;
-   clear: both;
-}
-
-.As{
-  padding: 4px;
-  padding-bottom: 8px;
-}
-h3{
-   font-size: 18px;
-   font-weight: 400;
-   text-align: left;
-   text-decoration: none;
-   text-align: center;
-}
-.As1 {
-   max-width: 400px;
-   width: 100%;
-   object-fit: cover;
-   object-position: center;
-}
-
-th, td {
-  font-size: 16px;
-  font-weight: 400;
-  text-align: left;
-  text-decoration: none;
-}
-
-@media screen and (max-width: 800px) {
-  aside {
-      width: 100%;
-      padding: 0;
-     }
-  th, td {
-      font-size: 14px;
-    }
-  }
-@media screen and (min-width:800px) and (max-width:1200px) {
-  aside {
-    width: 100%;
-    padding: 0;
-   }
-  th, td {
-    font-size: 16px;
-  }
-}
-
 /*Footer*/
 
 footer {
@@ -437,16 +383,6 @@ footer {
      float: left;
   }
 
-  .social-media {
-     padding: 20px;
-     font-size: 30px;
-     text-align: right;
-     text-decoration: none;
-     border-radius: 50%;
-     padding-right: 20px;
-     float: right;
-   }
-   
    .fa:hover {
        opacity: 1;
    }
