@@ -31,5 +31,9 @@ for (i =  0; i < images.length; i++) {
         modalImg.src = this.src;
         modalImg.alt = this.alt;
         captionText.innerHTML = this.nextElementSibling.innerHTML;
-    }
+    }}
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
 }
