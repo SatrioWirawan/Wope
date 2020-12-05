@@ -237,6 +237,7 @@ h2 {
  .button:hover {
    background-color: black;
    color: white;
+   cursor: pointer;
  }
 
  @media screen and (max-width: 600px) {
@@ -251,6 +252,9 @@ h2 {
   margin: auto;
   padding: auto;
   text-align: center;
+}
+.video:hover {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 400px) {
