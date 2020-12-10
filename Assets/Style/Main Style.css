@@ -26,6 +26,14 @@ header {
    display: inline;
    top: 0;
    }
+
+.logo {
+    width: 30px;
+    height: 50px;
+    float: right;
+    margin-right: 10px;
+}
+
 nav {
    background-color: whitesmoke;
    padding: 2px;
@@ -123,13 +131,16 @@ h2 {
 /*photo*/
 .photocard {
   flex-basis: 30%;
+  border: 0px;
 }
 #Photo {
    border-radius: 6px;
    cursor: pointer;
    transition: 0.3s;
 }
-#Photo:hover {opacity: 0.7;}
+#Photo:hover {
+  opacity: 0.7;
+}
 
 .modal {
   display: none;
@@ -152,7 +163,7 @@ h2 {
   max-width: 1400px;
 }
 
-#alt {
+#caption {
   margin: auto;
   display: block;
   width: 80%;
@@ -163,7 +174,7 @@ h2 {
   height: 150px;
 }
 
-.modal-content, #alt {  
+.modal-content, #caption {  
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
@@ -213,9 +224,9 @@ h2 {
   }
 }
 
-/*gallery button masih tahap pengembangan, jadi link tidak aktif*/
 .button {
    border: none;
+   border-radius: 6px;
    color: white;
    padding: 10px 40px;
    text-align: center;
@@ -253,8 +264,13 @@ h2 {
   padding: auto;
   text-align: center;
 }
-.video:hover {
+#Video {
+  border-radius: 6px;
   cursor: pointer;
+  transition: 0.3s;
+}
+#Video:hover {
+ opacity: 0.7;
 }
 
 @media screen and (max-width: 400px) {
