@@ -23,17 +23,17 @@ span.onclick = function() {
 
 var images = document.getElementsByClassName("Photo")
 var modalImg = document.getElementById("img01");
-var captionTexts = document.getElementById ('alt');
+var captionText = document.getElementById("caption");
 var i;
 for (i =  0; i < images.length; i++) {
     images[i].onclick = function(){
         modal.style.display = "block";
         modalImg.src = this.src;
         modalImg.alt = this.alt;
-        captionText.innerHTML = this.nextElementSibling.innerHTML;
+        captionText.innerHTML = this.alt;
     }}
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
 }
