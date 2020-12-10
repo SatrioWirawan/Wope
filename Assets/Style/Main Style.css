@@ -133,12 +133,12 @@ h2 {
   flex-basis: 30%;
   border: 0px;
 }
-#Photo {
+.Photo {
    border-radius: 6px;
    cursor: pointer;
    transition: 0.3s;
 }
-#Photo:hover {
+.Photo:hover {
   opacity: 0.7;
 }
 
