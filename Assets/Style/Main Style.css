@@ -264,12 +264,12 @@ h2 {
   padding: auto;
   text-align: center;
 }
-#Video {
+.Video {
   border-radius: 6px;
   cursor: pointer;
   transition: 0.3s;
 }
-#Video:hover {
+.Video:hover {
  opacity: 0.7;
 }
 
