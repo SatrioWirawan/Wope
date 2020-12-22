@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="Wope Production">
         <meta name="description" content="photo&video bank for everybody to enjoy, and for individual or professional purposes such as advertising.">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <link rel="stylesheet" href="Assets/Style/Main Style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
@@ -13,37 +14,51 @@
         @import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
         </style>
         <title>WOPE! | Images & Video Marketplace and Production House</title>
-        <link rel = "icon" href ="favicon.ico" type = "image/x-icon"> 
+        <link rel = "icon" href ="Assets/IMG/favicon.ico" type = "image/x-icon"> 
     </head>
     <body>
         <header>
-            <nav>
-                <div class="navbar">
-                    <div class="dropdown">
-                        <button class="dropbtn">Collections 
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="#Images">Images</a>
-                            <a href="#Videography">Videography</a>
-                        </div>
-                    </div>    
-                    <div class="dropdown">
-                        <button class="dropbtn">About Us 
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="#AboutUs">About Us</a>
-                            <a href="#Contributors">Contributors</a>
-                        </div>
-                    </div>
-                    <a href="#Contact"><i class="fa fa-fw fa-envelope"></i>Contact Us</a>
-                    <img class="logo" src="Assets/IMG/LogoPH.png" alt="Logo">
-                </div>                  
+            <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand">
+                    <img src="Assets/IMG/wope2.png" alt="" class="nav-logo">
+                  </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Collections
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#Images">Images</a></li>
+                        <li><a class="dropdown-item" href="#Videography">Videos</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        About Us
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#AboutUs">About Us</a></li>
+                        <li><a class="dropdown-item" href="#Contributors">Contributors</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Contact">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
             </nav>
-            <div class="jumbotron">
-                <img class="Mainlogo" src="Assets/IMG/wope.png" alt="Logo">
-                <p>Images & Video Marketplace and Production House</p>
+            <div class="jumbotron row">
+                <div class="col-lg-6 m-auto">
+                    <h1 class="mainname">Images & Video <br>Marketplace and Production House</h1>
+                </div>
+                <div class="col-lg-6 mx-auto">
+                    <img class="Mainlogo" src="Assets/IMG/LogoPH.png" alt="name">
+                </div> 
             </div>
         </header>
         <main>
@@ -67,6 +82,8 @@
                                         <p>Sunsets</p>
                                     </div>
                                 </div>
+                            </div>    
+                            <div class="row">
                                 <div class="column">
                                     <div class="photocard">
                                         <img class="Photo" src="Assets/IMG/IMG_20190220_024640.jpg" alt="Candlelight | Author: Satrio Wirawan">
@@ -85,7 +102,7 @@
                                     <div id="caption"></div>
                                 </div>
                             </div>
-                            <button style="padding: 0px; border: none;"><a href="Photo Gallery.html" class="button">SEE MORE</a></button>
+                            <button style="padding: 0px; border: none;"><a href="Photo.html" class="button">SEE MORE</a></button>
                         </section>
                         <hr class="solid">
                         <section id="Videography">
@@ -100,7 +117,7 @@
                             </div>
                             <div>
                                 <p style="font-size: 18px;">WOPE production video for advertising purposes</p>
-                                <button style="padding: 0px; border: none;"><a href="Video Gallery.html" class="button">SEE MORE</a></button>
+                                <button style="padding: 0px; border: none;"><a href="Video.html" class="button">SEE MORE</a></button>
                             </div>
                         </section>
                 </article>
@@ -117,7 +134,7 @@
                                     <img  id="Satrio" src="Assets/IMG/Profile SatWir.jpg" alt="Satrio">
                                     <div class="container">
                                         <div class="Profilecard">
-                                            <h1>Satrio Wirawan</h1>
+                                            <h3>Satrio Wirawan</h3>
                                             <p class="title">Web Developer,</p>
                                             <p class="title">Photographer,</p> 
                                             <p class="title">Traveller</p>
@@ -132,7 +149,7 @@
                                     <img id="Adnan" src="Assets/IMG/Adnan profile.jpeg" alt="Adnan">
                                     <div class="container">
                                         <div class="Profilecard"> 
-                                            <h1>Adnan Afif</h1>
+                                            <h3>Adnan Afif</h3>
                                             <p class="title">Content Creator,</p> 
                                             <p class="title">Video Editor,</p> 
                                             <p class="title">Musician</p>
@@ -144,23 +161,29 @@
                             </div>
                         </div>
                     </section>
+                    <section class="contact">
+                        <div>
+                            <h2 href="ContactUs" id="Contact">Contact Us</h2>
+                        </div>
+                    </section>
                 </article>
             </div>
             <hr class="solid">           
         </main>
         <footer>
             <div>
-                <div>
-                    <p href="ContactUs" id="Contact">Contact Us</p>
-                </div>
-                <hr class="solid">
-                <h4>Satrio Wirawan &#169; 2020.</h4>
                 <div id="social-media">
+                    <a href="mailto:satriowirawanh@gmail.com" class="fa fa-fw fa-envelope"></a>
+                    <a href="http://www.shutterstock.com/g/Satriowirawanu"><img src="Assets/IMG/shutterstock.png" class="shutterstock"></a>
+                    <a href="https://www.linkedin.com/in/satriowirawanu/" class="fa fa-linkedin"></a>
                     <a href="https://www.instagram.com/satriowirawanu" class="fa fa-instagram"></a>
                     <a href="https://www.twitter.com/satriowirawan_" class="fa fa-twitter"></a>
                 </div>
+                <hr class="solid">
+                <h4>Satrio Wirawan &#169; 2020.</h4>
             </div>
         </footer>
         <script src="Assets/Script/Main Script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous" ></script>
     </body>
 </html>
