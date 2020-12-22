@@ -32,7 +32,9 @@ header {
 .navbar {
 width: 100%;
 }
-
+.dropdown-item {
+  text-align: center;
+}
 .nav-logo {
   width: 100px;
 }
