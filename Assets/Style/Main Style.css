@@ -351,6 +351,7 @@ footer {
 
    .fa:hover {
        opacity: 1;
+       text-decoration: none;
    }
    .fa-envelope {
     font-size: 24px;
