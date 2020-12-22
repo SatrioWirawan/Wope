@@ -12,11 +12,12 @@ body {
 
 hr.solid {
   border-top: 3px solid #bbb;
+  margin: 0px;
   }
 img {
   width: 100%;
 } 
-/*Header*/
+/*Header & Navbar*/
 
 header {
    font-size: 20px;
@@ -25,101 +26,48 @@ header {
    text-decoration: none;
    display: inline;
    top: 0;
+   margin: 0px;
    }
 
-.logo {
-    width: 30px;
-    height: 50px;
-    float: right;
-    margin-right: 10px;
+.navbar {
+width: 100%;
 }
 
-nav {
-   background-color: whitesmoke;
-   padding: 2px;
-   max-height: 100px;
-   position: sticky;
-   top: 0;
-   text-align: left;
+.nav-logo {
+  width: 100px;
+}
+
+@media only screen and (min-width: 700px) {
+  .navbar-collapse {
+    width: auto;
   }
-  .navbar {
-    overflow: hidden;
-    background-color: transparent;
-  }
-  
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: black;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-    cursor: pointer;
-  }
-  
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: gray;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+}
+
+/**Jumbotron**/
 
 .jumbotron {
+   width: 100%;
    font-size: 40px;
    padding: 0px;
-   background-color: white;
+   background-color: #214252;
    text-align: center;
    color:black;
    font-family: 'Oswald', sans-serif;
   }
 .Mainlogo {
-   width: 100%;
-   max-width: 800px;
-   max-height: 800px;
+   width: 80%;
    object-fit: cover;
    object-position: center;
   }
-
+.mainname {
+  margin: 0px;
+}
 /*Main*/
+main {
+width: 100%;
+padding: 0px 20px 0px;
+}
+
 h2 {
    font-size: 28px;
    font-weight: 400;
@@ -308,6 +256,7 @@ h2 {
 .row  {
   padding: auto;
 }
+
 .column {
   float: left;
   width: 50%;
@@ -379,42 +328,62 @@ h2 {
 /*Footer*/
 
 footer {
-   padding: 30px;
-   background-color:black;
-   text-align: right;
-   font-size: 26px;
-   max-width: 100%;
-   clear: both;
+  padding: 15px 30px 10px;
+  background-color: #db6400;
+  font-size: 26px;
+  max-width: 100%;
+  clear: both;
+  margin: 0px;
 }
-  #contact {
-    color: white;
-    text-align: left;
-    font-size: 22px;
-    cursor: pointer;
+.solid {
+  border-top: 3px solid #bbb;
+  background-color: #bbb;
+  width: 100%;
   }
-
+ 
   h4 {
-     font-size: 16px;
-     font-weight: 400;
-     text-align: center;
-     text-decoration: none;
-     color: gray;
-     margin: 5px;
-     float: left;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
   }
 
    .fa:hover {
        opacity: 1;
    }
-   .fa-twitter {
-     background: transparent;
-     color: white;
-     text-decoration: none;
-     margin-right: 2px;
-   }
-   .fa-instagram {
-     background: transparent;
-     color: white;
-     text-decoration: none;
-     margin-right: 4px;
-   }
+   .fa-envelope {
+    font-size: 24px;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    margin: 0px 4px 0px;
+  }
+  .fa-twitter {
+    font-size: 24px;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    margin: 0px 4px 0px;
+  }
+  .fa-instagram {
+    font-size: 24px;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    margin: 0px 4px 0px;
+  }
+  .fa-linkedin {
+    font-size: 24px;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    margin: 0px 4px 0px;
+  }
+  .shutterstock {
+    width: 24px;
+    text-decoration: none;
+    margin: 0px 4px 0px;
+    position: relative;
+    bottom: 2px;
+  }
