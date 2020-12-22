@@ -355,28 +355,28 @@ footer {
    .fa-envelope {
     font-size: 24px;
     background: transparent;
-    color: white;
+    color: white!important;
     text-decoration: none;
     margin: 0px 4px 0px;
   }
   .fa-twitter {
     font-size: 24px;
     background: transparent;
-    color: white;
+    color: white!important;
     text-decoration: none;
     margin: 0px 4px 0px;
   }
   .fa-instagram {
     font-size: 24px;
     background: transparent;
-    color: white;
+    color: white!important;
     text-decoration: none;
     margin: 0px 4px 0px;
   }
   .fa-linkedin {
     font-size: 24px;
     background: transparent;
-    color: white;
+    color: white!important;
     text-decoration: none;
     margin: 0px 4px 0px;
   }
